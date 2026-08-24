@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "amir-skills",
+  "description": "Amir's Claude Code skills — one marketplace, every skill.",
+  "owner": {
+    "name": "Amir Abushanab",
+    "url": "https://github.com/Amir-Abushanab"
+  },
+  "plugins": [
+    {
+      "name": "modern-frontend-architecture",
+      "source": { "source": "github", "repo": "Amir-Abushanab/modern-frontend-architecture" },
+      "description": "House standard for architecting modern web frontends — type-safe, agent-first defaults for stack, data, state, styling, security, logging, i18n, and deploy.",
+      "category": "development",
+      "keywords": ["frontend", "architecture", "react", "tanstack", "typescript"],
+      "license": "MIT"
+    },
+    {
+      "name": "understudy",
+      "source": { "source": "github", "repo": "Amir-Abushanab/understudy" },
+      "description": "Measure a website's brand identity (color, type, spacing, motion) from the live page, then learn its feel.",
+      "category": "development",
+      "keywords": ["brand", "design-tokens", "design-system", "motion", "playwright"],
+      "license": "MIT"
+    }
+  ]
+}
