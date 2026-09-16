@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "modern-frontend-architecture",
-      "source": { "source": "github", "repo": "Amir-Abushanab/modern-frontend-architecture" },
+      "source": { "source": "url", "url": "https://github.com/Amir-Abushanab/modern-frontend-architecture.git" },
       "description": "House standard for architecting modern web frontends — type-safe, agent-first defaults for stack, data, state, styling, security, logging, i18n, and deploy.",
       "category": "development",
       "keywords": ["frontend", "architecture", "react", "tanstack", "typescript"],
@@ -17,7 +17,7 @@
     },
     {
       "name": "understudy",
-      "source": { "source": "github", "repo": "Amir-Abushanab/understudy" },
+      "source": { "source": "url", "url": "https://github.com/Amir-Abushanab/understudy.git" },
       "description": "Measure a website's brand identity (color, type, spacing, motion) from the live page, then learn its feel.",
       "category": "development",
       "keywords": ["brand", "design-tokens", "design-system", "motion", "playwright"],
