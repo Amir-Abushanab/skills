@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "modern-frontend-architecture",
-      "source": { "source": "url", "url": "https://github.com/Amir-Abushanab/modern-frontend-architecture.git" },
+      "source": { "source": "git-subdir", "url": "https://github.com/Amir-Abushanab/modern-frontend-architecture.git", "path": "plugin" },
       "description": "House standard for architecting modern web frontends — type-safe, agent-first defaults for stack, data, state, styling, security, logging, i18n, and deploy.",
       "category": "development",
       "keywords": ["frontend", "architecture", "react", "tanstack", "typescript"],
